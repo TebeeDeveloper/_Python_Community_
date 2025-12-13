@@ -5,8 +5,8 @@
 ===================================================================================================================================================================================
 
 I. Vấn đề bản quyền
-    [2025]. Mọi quyền được bảo lưu
--   Tác giả: Tebee_Sunaookami - Trần Trung Nghĩa
+    [13/12/2025]. Mọi quyền được bảo lưu.
+-   Tác giả: Tebee_Sunaookami - Trần Trung Nghĩa.
 
 -   Sở hữu trí tuệ:
     +   Module này được phát triển độc lập dựa trên kiến thức về mật mã cổ điển.
@@ -21,15 +21,14 @@ I. Vấn đề bản quyền
 II. Giới thiệu Enigma cổ điển (nền tảng của module)
 -   Enigma là máy mật mã của Đức Quốc Xã trong Thế chiến 2.
 
--   Đây là cổ máy có tầm quan trọng nhất, về việc bảo vệ thông tin nội bộ
-        Alan Turin & Bletchley Park đã giải mã
+-   Đây là cổ máy có tầm quan trọng nhất, về việc bảo vệ thông tin nội bộ.
+        Alan Turin & Bletchley Park đã giải mã.
         
 - Thành phần:
     Bàn phím (Keyboard): Nhập liệu.
     Bảng cắm (Plugboard/Steckerbrett): Trao đổi ký tự ban đầu, là một trong những tầng mã hóa quan trọng.
     Các Rotor (Rotors/Walzen): [Thường 3-5 rotor] Thực hiện phép thế hoán vị. Mỗi lần gõ phím, các rotor quay, thay đổi hoán vị.
-    Rotor Phản xạ (Reflector/Umkehrwalze): Đảm bảo tính thuận nghịch của mã hóa (A được mã thành B thì B sẽ được mã thành A), nhưng cũng là
-    yếu tố then chốt ngăn chặn việc một ký tự tự mã hóa thành chính nó.
+    Rotor Phản xạ (Reflector/Umkehrwalze): Đảm bảo tính thuận nghịch của mã hóa (A được mã thành B thì B sẽ được mã thành A), nhưng cũng là yếu tố then chốt ngăn chặn việc một ký tự tự mã hóa thành chính nó.
     
 -   Nguyên lý hoạt động:
     Bàn phím -> Plugboard -> Rotor 1, 2, 3 -> Reflector -> Rotor 3, 2, 1 -> Plugboard -> Đèn báo
@@ -37,41 +36,40 @@ II. Giới thiệu Enigma cổ điển (nền tảng của module)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 III. Giới thiệu Enigma Module Made By Tebee
--   Dựa trên nguyên lý Enigma cổ điển, với 1000 rotor làm tăng không gian khoá (space key) và độ phức tạp khi giải mã
--   Không gian khoá lý thuyết là 26^1000
+-   Dựa trên nguyên lý Enigma cổ điển, với 1000 rotor làm tăng không gian khoá (space key) và độ phức tạp khi giải mã.
+-   Không gian khoá lý thuyết là 26^1000.
 -   Kiến trúc độc quyền:
     -   Cơ chế quay:
         Khi rotor n - 1 chạm notch [Ví dụ: X]
         Rotor n quay 1 nấc [Ví dụ: P ->1 K]
     -> Đây gọi là Double Stepping
-    -   Plugboard động: Thay đổi plugboard theo ngày
+    -   Plugboard động: Thay đổi plugboard theo ngày.
     -   Không gian khoá ước tính 26^1000. Có thể nói lớn hơn số nguyên tử trong vũ trụ quan sát được.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 IV. Ý tưởng và Tính năng Bổ sung
 -   Tối ưu hoá hiệu suất:
-    -   Cơ chế EnigmaGamma
-    -   Được xây dựng hoàn toàn bằng Python và thư viện string
+    -   Cơ chế EnigmaGamma.
+    -   Được xây dựng hoàn toàn bằng Python và thư viện string.
     
 -   Tính năng đặc biệt:
-    -   Hỗ trợ bộ ký tự ALPHABET (A-Z)
+    -   Hỗ trợ bộ ký tự ALPHABET (A-Z).
     
 -   Lĩnh vực và Ứng dụng Tiềm năng:
-    -   Công cụ giáo dục về mật mã
-    -   Sử dụng trong trò chơi và phòng thử thách
-    -   Nghiên cứu về độ phức tạp của mật mã Rotor
+    -   Công cụ giáo dục về mật mã.
+    -   Sử dụng trong trò chơi và phòng thử thách.
+    -   Nghiên cứu về độ phức tạp của mật mã Rotor.
 
 -   Ý tưởng phát triển tiếp theo:
-    -   Reflector động
-    -   Mã hoá số và ký tự bảng chữ cái tiếng Việt
-    -   Mã hoá ký tự Unicode
+    -   Reflector động.
+    -   Mã hoá số và ký tự bảng chữ cái tiếng Việt.
+    -   Mã hoá ký tự Unicode.
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 V. Liên hệ và Hợp tác
 -   Gmail: tebeebmgo@gmail.com
--   Link sử dụng file cho mục đích cá nhân: https://www.mediafire.com/folder/bsypnf174a32y/Enigma+Machinism
 -	Link GitHub: https://github.com/TebeeDeveloper/_Python_Community_
 
 ===================================================================================================================================================================================
